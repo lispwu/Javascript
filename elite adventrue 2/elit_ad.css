@@ -1,0 +1,12 @@
+
+span.decision {
+	font-family:bold;
+	border:thin solid #000000;
+	padding:5px;
+	background-color:#DDDDDD;
+}
+
+body.div {
+	margin-top:100px;
+	text-align:center;
+}

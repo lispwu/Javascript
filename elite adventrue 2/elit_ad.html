@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Stick Figure Adventure</title>
+		<link rel="stylesheet" href="elit_ad.css"   />
+	</head>
+	<body>
+		<div>
+			<img id="sceneimg" src="scene0.png" alt="Stick Figure Adventure" /> <br />
+			<div id="scenetext"></div><br />
+			
+			<span id="decision1" class="decision" onclick="changeScene(1)"
+				onmouseover="this.className = 'decisionhover'"
+				onmouseover="this.className = 'decision'">Start Game</span>
+			<span id="decision2" class="decision" onclick="changeScene(2)"
+				onmouseover="this.className = 'decisionhover'"
+				onmouseover="this.className = 'decision'"
+				style="visibility:hidden"></span>
+		</div>
+		<script type="text/javascript" src="elit_ad.js"></script>
+	</body>
+</html>
