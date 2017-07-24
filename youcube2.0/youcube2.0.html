@@ -1,0 +1,16 @@
+<html>
+	<head>
+	<title>YouCube - The Blog for Cube Puzzlers</title>
+	<script type="text/javascript" src="youcube2.0.js"></script>
+	</head>
+	
+	<body onload="showBlog(5);">
+		<h3>YouCube - The Blog for Cube Puzzlers</h3>
+		<img src="cube.png" alt="YouCube" />
+		<input type="button" id="search" value="search the Blog" onclick="searchBlog();" />
+		<input type="text" id="searchtext" name="searchtext" value="" />
+		<div id="blog"></div>
+		<input type="button" id="showall" value="show ALL Blog Entries" onclick="showBlog();" />
+		<input type="button" id="viewrandom" value="View a Random Blog Entry" onclick="randomBlog();" />
+	</body>
+</html>
